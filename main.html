@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phon book</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/popupInfo.css">
+    <link rel="stylesheet" href="css/poupUpdate.css">   
+    <link rel="stylesheet" href="css/popupAdd.css"> 
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Phone Book</h1>
+    </header>
+    <main>
+      <div class="container">
+        <div class="options">
+          <input class="searchInput" type="text" name="inputContect">
+          <img class="search" src="images/search.png" alt="search" height="30" width="30">
+          <img class="addImg" src="images/add.png" alt="add" height="40" width="40">
+          <img class="deleteAll" src="images/delete.png" alt="delete" height="40" width="40">
+        </div>
+        <div class="contact">
+          <p class="name"></p>
+          <p class="number"></p>
+          <img class="editImg" src="images/edit.png" alt="edit" height="22" width="22">
+          <img class="deleteImg" src="images/delete.png" alt="delete" height="22" width="22">
+        </div>
+        <div class="contact">
+          <p class="name">name2</p>
+          <p class="number">35245</p>
+          <img class="editImg" src="images/edit.png" alt="edit" height="22" width="22">
+          <img class="deleteImg" src="images/delete.png" alt="delete" height="22" width="22">
+        </div>
+        <div class="contact">
+          <p class="name">name3</p>
+          <p class="number">634645</p>
+          <img class="editImg" src="images/edit.png" alt="edit" height="22" width="22">
+          <img class="deleteImg" src="images/delete.png" alt="delete" height="22" width="22">
+        </div>
+        <div class="contact">
+          <p class="name"></p>
+          <p class="number"></p>
+          <img class="editImg" src="images/edit.png" alt="edit" height="22" width="22">
+          <img class="deleteImg" src="images/delete.png" alt="delete" height="22" width="22">
+        </div>
+      </div>
+      <!-- div for infoPopup -->
+      <div class="getInfoPopup">
+        <img class="exit" src="images/exit.png" alt="exit" height="25" width="25">
+        <p>Name: </p>
+        <p>Phone Number: </p>
+        <p>Address: </p>
+        <p>Email: </p>
+        <p>Note: </p>
+      </div>
+      <!-- div for updatePopup -->
+      <div class="updatePopup">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="text" name="phoneNumber" placeholder="Phone Number" required>
+        <input type="text" name="address" placeholder="Address">
+        <input type="email" name="email" placeholder="Email">
+        <textarea name="tarea" cols="0" rows="0" placeholder="Note"></textarea>
+        <input class="button cancelUpdate" type="submit" value="Cancel">
+        <input class="button edit" type="submit" value="Edit">
+      </div>
+      <!-- div for addPopup -->
+      <div class="addPopup">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="text" name="phoneNumber" placeholder="Phone Number" required>
+        <input type="text" name="address" placeholder="Address">
+        <input type="email" name="email" placeholder="Email">
+        <textarea name="tarea" cols="0" rows="0" placeholder="Note"></textarea>
+        <input class="button cancelAdd" type="submit" value="Cancel">
+        <input class="button add" type="submit" value="Add">
+      </div>
+      <img class="click" src="images/click.gif" alt="click" height="50%" width="20%">
+      <img class="boom" src="images/boom.gif" alt="boom">
+    </main>
+    <footer>
+      <p>Ezra & Hodaya Chayu &copy;</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+.getInfoPopup{
+  display: none;
+  flex-direction: column;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 70%;
+  height: 80%;
+  text-align: left;
+  background-color: hsl(180, 100%, 88%);
+  border-radius: 1em;
+}
+
+.getInfoPopup > img{
+  margin: 1rem;
+}
+
+.getInfoPopup > p {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.getInfoPopup > p:last-of-type{
+  padding-bottom: 2rem;
+}
